@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "buero"
+version = "0.1.0"
+authors = [
+    { name = "Buero Developer", email = "dev@buero.com" },
+]
+description = "An experimental cryptocurrency"
+requires-python = ">=3.8"
+dependencies = [
+    "flask==3.0.2",
+    "cryptography==42.0.5",
+    "requests==2.31.0",
+    "pycryptodome==3.20.0",
+    "pytest==8.0.2",
+    "python-dotenv==1.0.1",
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+packages = ["buero"] 

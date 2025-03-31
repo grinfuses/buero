@@ -21,7 +21,7 @@ BUERO es una criptomoneda educativa implementada en Python que demuestra los con
 
 1. Clona el repositorio:
 ```bash
-git clone https://github.com/tuusuario/buero.git
+git clone https://github.com/grinfuses/buero.git
 cd buero
 ```
 
@@ -121,4 +121,4 @@ Las contribuciones son bienvenidas. Por favor, abre un issue para discutir los c
 
 ## Licencia
 
-Este proyecto está bajo la Licencia MIT. Ver el archivo `LICENSE` para más detalles. 
+Este proyecto está bajo la Licencia MIT. Ver el archivo `LICENSE` para más detalles.
